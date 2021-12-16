@@ -51,6 +51,9 @@
       let resetButton;
 
       function checkGuess() {
+        
+        console.log(userGuess);
+        
         const userGuess = Number(guessField.value);
         if (guessCount === 1) {
           guesses.textContent = 'Previous guesses: ';
